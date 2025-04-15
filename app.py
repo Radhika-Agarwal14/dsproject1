@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import os 
 import numpy as np
 import pandas as pd
-from src.datascience.pipeline.prediction_pipeline import PredictionPipeline
+from src.wine_quality.pipeline.prediction_pipeline import PredictionPipeline
 
 
 app = Flask(__name__) # initializing a flask app
