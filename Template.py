@@ -29,7 +29,6 @@ list_of_files=[
     "app.py"
 ]
 
-
 for filepath in list_of_files:
     filepath=Path(filepath)
     filedir,filename=os.path.split(filepath)
